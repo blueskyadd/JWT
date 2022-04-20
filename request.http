@@ -1,0 +1,12 @@
+POST http://localhost:3000/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "火星上的飞猫",
+    "password": "hello"
+}
+
+###
+
+GET http://localhost:3000/home HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IueBq-aYn-S4iueahOmjnueMqyIsImlhdCI6MTY1MDQ4NDA5OSwiZXhwIjoxNjUwNDg0MTI5fQ.xXOmwcqzXyHJ8n80W2dPA4QJD74dmtt0_zuC-8sYBmM
